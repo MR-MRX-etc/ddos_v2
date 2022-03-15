@@ -10,13 +10,7 @@ def banner():
     os.system("cls" or "clear")
     print(Fore.GREEN+"""
 -----------------
-DDOSR black.plage
- ____  __     ___    ___ __ __    ____  __     ___    ___   ____
- || )) ||    // \\  //   || //    || \\ ||    // \\  // \\ ||   
- ||=)  ||    ||=|| ((    ||<<     ||_// ||    ||=|| (( ___ ||== 
- ||_)) ||__| || ||  \\__ || \\ || ||    ||__| || ||  \\_|| ||___
-
-my instagram black.plage v2
+my instagram war__dark v2
 -----------------    
     """+RESET)
 banner()    
