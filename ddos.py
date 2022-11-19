@@ -11,10 +11,10 @@ url = "http://" + str(ip)
 
 def randomip():
   randip = []
-  randip1 = random.randint(1,5000)
-  randip2 = random.randint(1,5000)
-  randip3 = random.randint(1,5000)
-  randip4 = random.randint(1,5000)
+  randip1 = random.randint(1,1500)
+  randip2 = random.randint(1,1500)
+  randip3 = random.randint(1,1500)
+  randip4 = random.randint(1,1500)
   
   randip.append(randip1)
   randip.append(randip2)
